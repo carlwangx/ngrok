@@ -1,8 +1,8 @@
 package log
 
 import (
-	log "code.google.com/p/log4go"
 	"fmt"
+	log "log4go"
 )
 
 var root log.Logger = make(log.Logger)
